@@ -1,7 +1,7 @@
 import header from './assets/images/illustration-article.svg';
 import avatar from './assets/images/image-avatar.webp';
 import Card from "./Card/Card.tsx";
-import Tag from "./assets/Tag/Tag.tsx";
+import Tag from "./Tag/Tag.tsx";
 
 function App() {
 
