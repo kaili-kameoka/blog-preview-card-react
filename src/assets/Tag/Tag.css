@@ -1,0 +1,18 @@
+:root {
+	/*	Tag */
+	--tag-border-radius: 4px;
+	--tag--padding: 4px 12px;
+	--tag-background-color: var(--yellow);
+	--tag-font-size: 0.75rem;
+	--tag-font-weight: 800;
+	--tag-text-color: var(--black);
+}
+
+.tag {
+	border-radius: var(--tag-border-radius);
+	padding: var(--tag--padding);
+	background-color: var(--tag-background-color);
+	font-weight: var(--tag-font-weight);
+	font-size: var(--tag-font-size);
+	color: var(--tag-text-color)
+}

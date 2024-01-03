@@ -1,0 +1,55 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Device Sizes */
+  --Mobile-width: 375px;
+  --Desktop-width: 1440px;
+
+  /* Colors */
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+
+  /* Typography */
+  --paragraph-font-family: Figtree sans-serif;
+  --paragaph-font-size: 16px;
+  --paragraph-font-weidht: 600;
+
+  /*	Components */
+
+  /* Body */
+  --body-background-color: var(--yellow);
+
+  /*	Tag */
+  --tag-border-radius: 4px;
+  --tag--padding: 4px 12px;
+  --tag-background-color: var(--yellow);
+  --tag-font-size: 0.75rem;
+  --tag-font-weight: 800;
+  --tag-text-color: var(--black);
+
+}
+
+body {
+  font-family: var(--paragraph-font-family);
+  font-size: var(--paragaph-font-size);
+  font-weight: var(--paragraph-font-weidht);
+  background-color: var(--body-background-color);
+}
+
+.tag {
+  border-radius: var(--tag-border-radius);
+  padding: var(--tag--padding);
+  background-color: var(--tag-background-color);
+  font-weight: var(--tag-font-weight);
+  font-size: var(--tag-font-size);
+  color: var(--tag-text-color)
+}
